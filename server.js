@@ -16,7 +16,7 @@ app.use(
 app.use(bodyParser.json());
 
 // DB Config
-const db = require( process.env.MONGODB_URI  || "./config/keys").mongoURI;
+const db = require(process.env.MONGODB_URI || "./config/keys").mongoURI;
 
 // Connect to MongoDB
 mongoose
@@ -38,7 +38,7 @@ app.use("/api/users", users);
 
 const port = process.env.PORT || 5000;
 
-if(process.env.NODE_ENV ==='production'){
+if (process.env.   === 'production') {
   app.use(express.static('client/build'));
 }
 
