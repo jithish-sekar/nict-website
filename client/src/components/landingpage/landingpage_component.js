@@ -82,7 +82,7 @@ class Landing extends Component {
               </div>
               <div className="studentAdmin">
               <button style={{backgroundColor:"#01112c",color:"#fff"}}>Admin Login</button>
-              <button>Student Login</button>
+              <button>Students Login</button>
               </div>
             </div>
           </div>

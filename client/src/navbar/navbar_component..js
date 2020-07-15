@@ -14,7 +14,7 @@ class Navbar extends Component {
           <div className="navHeader">
               <ul>
                   <li>Home</li>
-                  <li>Programs</li>
+                  <li>Programs  <i class="fas fa-chevron-down"></i></li>
                   <li>About us</li> 
 
               </ul>
