@@ -23,7 +23,7 @@ img{
     // margin-top: 25px;
     width: 50%;
     // margin-left: 2.5%;
-    height: 100vh;
+    height:90vh;
     
  h3{
     // color:#1e3932;
@@ -67,24 +67,26 @@ img{
         padding-top: 20px;
     }
     .studentAdmin{
-        margin-left: 28%;
+        margin-left: 10%;
+        padding-top: 50px;
         button{
             width: 160px;
             height: 60px;
             font-family:' Raleway',sans-serif;
             font-size: 14px;
             text-transform: uppercase;
-            background-color: #f2f2f2;
-            border: 1px solid #15294b;
+            border: 1px solid #2c2c96;
             border-radius: 5px;
-            border: 1px solid #01112c;
-            margin-right: 20px;
+            color: rgb(17, 17, 17);
+            // border: 1px solid #fff;
+            margin-right: 30px;
             cursor: pointer;
         }
         button:hover{
-            border: 3px solid #01112c;
-            // color: #fff;
-            transition: all .2s;
+            border:2px solid  #2c2c96;
+            background-color: #2c2c96;
+            color: #fff;
+            transition: all .4s;
         }
     }
 }
@@ -93,7 +95,7 @@ img{
     width: 50%;
     // margin-left: 2.5%;
     // margin-top: 25px;
-    height: 100vh;
+    height: 90vh;
 
  .brightContainer{
     // font-family: 'Exo 2', sans-serif;

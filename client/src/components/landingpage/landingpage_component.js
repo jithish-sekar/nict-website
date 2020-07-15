@@ -59,7 +59,7 @@ class Landing extends Component {
             <h3>OBJECTIVE</h3>
             <p>With Solo Aim of Capacity Building Skill Development in the areas of NICT academic education and professionals for successfull acheivement.</p>
             <div className="courseTypes">
-              <img style={{ height: "100px",width:"130px", paddingLeft: "20px", paddingTop: "20px" }} src="nicthome.png" alt="nict" />
+              <img style={{ height: "100px",width:"120px", paddingLeft: "20px", paddingTop: "20px" }} src="nicthome.png" alt="nict" />
               <div className='chevronRight'>
                 <i class="fas fa-chevron-right"></i><span>CERTIFICATED COURSES</span><br /><br />
                 <i class="fas fa-chevron-right"></i><span style={{ marginTop: "20px" }}>DIPLOMA COURSES</span><br />
@@ -70,24 +70,28 @@ class Landing extends Component {
               </div>
             </div>
             <div>
-              <h3>METHODOLOGY</h3>
+              {/* <h3>METHODOLOGY</h3>
               <div className="courseTypes">
-                <img style={{ height: "130px",width:"130px",  paddingLeft: "20px", paddingTop: "20px" }} src="nicthome2.png" alt="nict" />
+                <img style={{ height: "130px",width:"125px",  paddingLeft: "20px", paddingTop: "20px" }} src="nicthome2.png" alt="nict" />
                 <div className='chevronRight'>
                   <i class="fas fa-chevron-right"></i><span>CLASS ROOM TRAINING</span><br /><br />
                 </div>
                 <div className='chevronRight'>
                   <i class="fas fa-chevron-right"></i><span>E-LEARNING<img style={{ height: "11px", paddingLeft: "10px", paddingTop: "" }} src="live.jpg" alt="nict" /></span><br /><br />
                 </div>
-              </div>
+              </div> */}
+              <h3>EXAMINATION </h3>
+              <div style={{display:"flex"}}>
+              <img style={{ height: "130px",width:"125px",  paddingLeft: "20px", paddingTop: "20px" }} src="nicthome2.png" alt="nict" />
               <div className="studentAdmin">
-              <button style={{backgroundColor:"#01112c",color:"#fff"}}>Admin Login</button>
-              <button>Students Login</button>
+              <Link to="/register"><button style={{backgroundColor: "#2c2c96",color:"#fff"}}>Admin Login</button></Link>
+              <Link to="/login"><button>Students Login</button></Link>
+              </div>
               </div>
             </div>
           </div>
           <div className="brightStudent">
-            <h4 className="brightContainer">We help you choose the right talent</h4>
+            <h4 className="brightContainer">INDEPENDENT  EDUCATIONAL  PROGRAM</h4>
 
             <img style={{ height: "500px",width:'auto',marginTop: "40px", marginLeft: "auto", marginRight: "auto", display: "block" }} src={nictland} alt='nict' />
           </div>
