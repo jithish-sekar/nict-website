@@ -80,7 +80,7 @@ class Landing extends Component {
                   <i class="fas fa-chevron-right"></i><span>E-LEARNING<img style={{ height: "11px", paddingLeft: "10px", paddingTop: "" }} src="live.jpg" alt="nict" /></span><br /><br />
                 </div>
               </div> */}
-              <h3>EXAMINATION </h3>
+              <h3>EXAMINATION <span><img style={{ height: "11px", paddingLeft: "10px", paddingTop: "" }} src="live.jpg" alt="nict" /></span></h3>
               <div style={{display:"flex"}}>
               <img style={{ height: "130px",width:"125px",  paddingLeft: "20px", paddingTop: "20px" }} src="nicthome2.png" alt="nict" />
               <div className="studentAdmin">
