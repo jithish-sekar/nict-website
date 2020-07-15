@@ -59,7 +59,7 @@ class Landing extends Component {
             <h3>OBJECTIVE</h3>
             <p>With Solo Aim of Capacity Building Skill Development in the areas of NICT academic education and professionals for successfull acheivement.</p>
             <div className="courseTypes">
-              <img style={{ height: "100px", paddingLeft: "20px", paddingTop: "20px" }} src="nicthome.png" alt="nict" />
+              <img style={{ height: "100px",width:"130px", paddingLeft: "20px", paddingTop: "20px" }} src="nicthome.png" alt="nict" />
               <div className='chevronRight'>
                 <i class="fas fa-chevron-right"></i><span>CERTIFICATED COURSES</span><br /><br />
                 <i class="fas fa-chevron-right"></i><span style={{ marginTop: "20px" }}>DIPLOMA COURSES</span><br />
@@ -72,7 +72,7 @@ class Landing extends Component {
             <div>
               <h3>METHODOLOGY</h3>
               <div className="courseTypes">
-                <img style={{ height: "130px", paddingLeft: "20px", paddingTop: "20px" }} src="nicthome2.png" alt="nict" />
+                <img style={{ height: "130px",width:"130px",  paddingLeft: "20px", paddingTop: "20px" }} src="nicthome2.png" alt="nict" />
                 <div className='chevronRight'>
                   <i class="fas fa-chevron-right"></i><span>CLASS ROOM TRAINING</span><br /><br />
                 </div>
