@@ -89,7 +89,7 @@ class Landing extends Component {
           <div className="brightStudent">
             <h4 className="brightContainer">We help you choose the right talent</h4>
 
-            <img style={{ height: "390px",width:'auto',marginTop: "40px", marginLeft: "auto", marginRight: "auto", display: "block" }} src={nictland} alt='nict' />
+            <img style={{ height: "500px",width:'auto',marginTop: "40px", marginLeft: "auto", marginRight: "auto", display: "block" }} src={nictland} alt='nict' />
           </div>
         </div>
       </React.Fragment>
