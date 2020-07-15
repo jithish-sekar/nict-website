@@ -1,0 +1,114 @@
+.landingContainer{
+    // background-color: #d4e9e2;
+    // background-color: #5c7686;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    margin-top: .5px;
+
+img{
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+     padding-top: 20px;
+    }
+}
+.containerObjective{
+    // background-color: #d4e9e2;
+    // background-color: #45687e;
+    background-color: #15294b;
+    // margin-top: 25px;
+    width: 50%;
+    // margin-left: 2.5%;
+    height: 100vh;
+    
+ h3{
+    // color:#1e3932;
+    // color: #fff;
+    // text-align: center;
+    // padding-top: 20px;
+    // font-family: 'Raleway', sans-serif;   
+    // font-weight: 700;
+    // font-size:40px;
+    // letter-spacing: 1px;    
+    // font-size: 22px;
+    color: #fff;
+    padding-top: 80px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 2.4em;
+    text-align: center;
+    letter-spacing: -2.3px;
+    margin: 0;
+    font-family:' Raleway',sans-serif;
+   }
+   p{
+       color: #dee6ec;
+       text-align: center;
+       padding-left: 30px;
+       padding-right: 30px;
+       padding-top: 20px;
+       letter-spacing: 1px;
+   }
+   .courseTypes{
+       display: flex;
+       align-items: center;
+    }
+    i{
+        margin-right: 15px;
+    }
+    .chevronRight{
+        color: #fff;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+    .studentAdmin{
+        margin-left: 28%;
+        button{
+            width: 160px;
+            height: 60px;
+            font-family:' Raleway',sans-serif;
+            font-size: 14px;
+            text-transform: uppercase;
+            background-color: #fff;
+            border: 1px solid #15294b;
+            border-radius: 5px;
+            border: 1px solid #01112c;
+
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        button:hover{
+            border: 3px solid #01112c;
+            // color: #fff;
+            transition: all .2s;
+        }
+    }
+}
+.brightStudent{
+    background-color: #15294b;
+    width: 50%;
+    // margin-left: 2.5%;
+    // margin-top: 25px;
+    height: 100vh;
+
+ .brightContainer{
+    // font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    color: #fff;
+    padding-top: 80px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 2.4em;
+    text-align: center;
+    letter-spacing: -2.3px;
+    font-family:' Raleway',sans-serif;
+}
+
+
+}

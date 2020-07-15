@@ -16,7 +16,7 @@ app.use(
 app.use(bodyParser.json());
 
 // DB Config
-const db = require(process.env.MONGODB_URI || "./config/keys").mongoURI;
+const db = require("./config/keys").mongoURI;
 
 // Connect to MongoDB
 mongoose
@@ -37,9 +37,5 @@ require("./config/passport")(passport);
 app.use("/api/users", users);
 
 const port = process.env.PORT || 5000;
-
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static('client/build'));
-}
 
 app.listen(port, () => console.log(`Server up and running on port ${port} !`));
