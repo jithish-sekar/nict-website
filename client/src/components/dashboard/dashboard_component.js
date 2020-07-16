@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
+import "./dashboard_component.scss"
+import SideNavPage from '../side_navigator/side_navigator_component';
+import tablebg from '../../components/tablebg.svg';
+
 
 class Dashboard extends Component {
   onLogoutClick = e => {
@@ -13,31 +17,29 @@ class Dashboard extends Component {
     const { user } = this.props.auth;
 
     return (
-      <div>
-        <div className="row">
-          <div className="landing-copy col s12 center-align">
-            <h4>
-              <b>Hey there,</b> {user.name.split(" ")[0]}
-              <p className="flow-text grey-text text-darken-1">
-                You are logged into a full-stack{" "}
-                <span style={{ fontFamily: "monospace" }}>MERN</span> app 👏
-              </p>
-            </h4>
-            <button
-              style={{
-                width: "150px",
-                borderRadius: "3px",
-                letterSpacing: "1.5px",
-                marginTop: "1rem"
-              }}
-              onClick={this.onLogoutClick}
-              className="btn btn-large waves-effect waves-light hoverable blue accent-3"
-            >
-              Logout
-            </button>
+      <React.Fragment>
+        <div className="displayDashboard">
+          <div className="dashboardContainer">
+            <SideNavPage />
+            {/* <h5>Online Examintaion</h5> */}
+            {/* <button onClick={this.onLogoutClick} >Logout</button> */}
+            {/* <b><i style={{ marginRight: "5px" }} class="fas fa-user"></i>{user.name.split(" ")[0]}</b> */}
+            <table style={{ width: "70%", marginLeft: "auto", marginRight: "auto", marginTop: "20px" }}>
+              <tr style={{ backgroundColor: "#e2e2e2" }}><th>Exam id</th><th>Exam Name</th><th>Duration</th><th><b style={{ outline: "2px solid black" }}><i style={{ marginRight: "5px" }} class="fas fa-user"></i>{user.name.split(" ")[0]}</b></th></tr>
+
+              <tbody>
+                <tr>
+                  <th scope="row">4321</th>
+                  <td>Commputer Application</td>
+                  <td>20 min</td>
+                  <td><button className="startTest">Start Test</button></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+          {/* <img src={tablebg} alt="table"/> */}
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 }

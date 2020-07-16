@@ -1,0 +1,29 @@
+.sideNavContainer{
+background-color: #e2e2e2;
+// background-color: #e4edf7;
+// background-color: #c3ccd5;
+width:18%;
+height: 100vh;
+margin-top: 4px;
+
+ul{
+padding-left: 20px;
+color:rgba(0, 0, 0, 0.87);
+margin:0
+}
+li{
+    font-family: 'Heebo', sans-serif;
+    border-bottom: 2px solid rgb(180, 180, 180);
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    cursor: pointer;
+    font-weight: 550;
+}
+li:hover{
+ border-color: rgba(0, 0, 0, 0.87);
+}
+i{
+    padding: 10px;
+}
+}
