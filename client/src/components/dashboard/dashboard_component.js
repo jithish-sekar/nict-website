@@ -25,7 +25,7 @@ class Dashboard extends Component {
             {/* <button onClick={this.onLogoutClick} >Logout</button> */}
             {/* <b><i style={{ marginRight: "5px" }} class="fas fa-user"></i>{user.name.split(" ")[0]}</b> */}
             <table style={{ width: "70%", marginLeft: "auto", marginRight: "auto", marginTop: "20px" }}>
-              <tr style={{ backgroundColor: "#e2e2e2" }}><th>Exam id</th><th>Exam Name</th><th>Duration</th><th><b style={{ outline: "2px solid black" }}><i style={{ marginRight: "5px" }} class="fas fa-user"></i>{user.name.split(" ")[0]}</b></th></tr>
+              <tr style={{ backgroundColor: "#e2e2e2" }}><th>Exam id</th><th>Exam Name</th><th>Duration</th><th><b style={{ outline: "2px solid black",padding:"10px" }}><i style={{ marginRight: "5px" }} class="fas fa-user"></i>{user.name.split(" ")[0]}</b></th></tr>
 
               <tbody>
                 <tr>
