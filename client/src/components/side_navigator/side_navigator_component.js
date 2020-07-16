@@ -22,7 +22,7 @@ class SideNavPage extends Component {
            <li><i class="fas fa-user"></i>My Account</li>
            <li><i class="fas fa-question-circle"></i>Help & Documentation</li>
            <li><i class="fas fa-home"></i>DashBoard</li>
-           <li><i class="fas fa-power-off"></i>Logout</li> 
+           <li onClick={this.onLogoutClick}><i class="fas fa-power-off"></i>Logout</li> 
          </ul>
         </div>
       </React.Fragment>
